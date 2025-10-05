@@ -8,7 +8,7 @@ Abra o PowerShell na pasta onde está o arquivo create-sql-server.
 
 Execute o comando abaixo para rodar o script no SQL Server:
 
-sqlcmd -S <NOME_DO_SERVIDO> -U <USUARIO> -P <SENHA> -i .\script.sqlserver
+sqlcmd -S <NOME_DO_SERVIDOr> -U <USUARIO> -P <SENHA> -i .\script.sqlserver
 
 
 
