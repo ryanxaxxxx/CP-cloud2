@@ -41,7 +41,9 @@ Crie as seguintes variáveis de ambiente (secrets):
 
 Nome do Secret	Descrição
 SPRING_DATASOURCE_URL = jdbc:sqlserver://sqlserver-rm555924.database.windows.net:1433;database=dimdimdb;user=admsql@sqlserver-rm555924;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+
 SPRING_DATASOURCE_USERNAME	Usuário do banco de dados "admsql"
+
 SPRING_DATASOURCE_PASSWORD	Senha do banco de dados "Fiap@2tdsvms"
 
 \\\
