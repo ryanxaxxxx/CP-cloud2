@@ -8,10 +8,10 @@ Abra o PowerShell na pasta onde está o arquivo create-sql-server.
 
 Execute o comando abaixo para rodar o script no SQL Server:
 
-sqlcmd -S <NOME_DO_SERVIDOR> -U <USUARIO> -P <SENHA> -i .\script.sqlserver
+sqlcmd -S <NOME_DO_SERVIDO> -U <USUARIO> -P <SENHA> -i .\script.sqlserver
 
 
-💡 Substitua <NOME_DO_SERVIDOR>, <USUARIO> e <SENHA> pelos dados do seu ambiente.
+💡 Substitua <sqlserver-rm555924>, <admsql> e <Fiap@2tdsvms> pelos dados do seu ambiente.
 
 
 
@@ -46,7 +46,7 @@ SPRING_DATASOURCE_PASSWORD	Senha do banco de dados "Fiap@2tdsvms"
 
 ⚙️ 4. Configurar o Arquivo .yml do GitHub Actions
 
-No arquivo de workflow (.github/workflows/<nome-do-arquivo>.yml), adicione o bloco de variáveis de ambiente logo abaixo do comando maven clean install.
+No arquivo de workflow (.github/workflows/main_movtodimdim-rm555924.yml), adicione o bloco de variáveis de ambiente logo abaixo do comando maven clean install.
 
 Exemplo:
 
