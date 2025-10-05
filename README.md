@@ -10,9 +10,9 @@ Execute o comando abaixo para rodar o script no SQL Server:
 
 sqlcmd -S <NOME_DO_SERVIDO> -U <USUARIO> -P <SENHA> -i .\script.sqlserver
 
-\\\
 
-💡 Substitua <sqlserver-rm555924>, <admsql> e <Fiap@2tdsvms> pelos dados do seu ambiente.
+
+💡 Substitua servidor: sqlserver-rm555924, usuario: admsql e senha: Fiap@2tdsvms .
 
 \\\
 
