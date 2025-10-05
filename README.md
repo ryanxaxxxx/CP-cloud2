@@ -58,6 +58,7 @@ Exemplo:
   run: mvn clean install
 
   env:
+  
     SPRING_DATASOURCE_URL: ${{ secrets.SPRING_DATASOURCE_URL }}
   
     SPRING_DATASOURCE_USERNAME: ${{ secrets.SPRING_DATASOURCE_USERNAME }}
