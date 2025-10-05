@@ -1,0 +1,17 @@
+DDL das tabelas:
+
+CREATE TABLE [dbo].[categoria] (
+    id BIGINT NOT NULL IDENTITY,
+    nome VARCHAR(100) NOT NULL,
+    descricao VARCHAR(255),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE [dbo].[produto] (
+    id BIGINT NOT NULL IDENTITY,
+    nome VARCHAR(100) NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    descricao VARCHAR(255),
+    categoria_id BIGINT NOT NULL,
+    PRIMARY KEY (id)
+);
