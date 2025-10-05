@@ -78,6 +78,7 @@ Verifique se a aplicação Java está conseguindo se conectar ao banco de dados 
 
 Em caso de erro, revise os nomes das variáveis e o arquivo .yml.
 
+
 INTEGRANTES:
 
 Ryan Fernando Lucio da Silva - 555924 
