@@ -77,3 +77,11 @@ Confirme que o pipeline executa corretamente no GitHub Actions.
 Verifique se a aplicação Java está conseguindo se conectar ao banco de dados via as variáveis de ambiente configuradas.
 
 Em caso de erro, revise os nomes das variáveis e o arquivo .yml.
+
+INTEGRANTES:
+
+Ryan Fernando Lucio da Silva - 555924 
+
+Lucas Henrique de Souza Santos - 558241 
+
+Mariana Roberti Neri - 556284
