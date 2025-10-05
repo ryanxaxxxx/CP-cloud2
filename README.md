@@ -8,7 +8,7 @@ Abra o PowerShell na pasta onde está o arquivo create-sql-server.
 
 Execute o comando abaixo para rodar o script no SQL Server:
 
-sqlcmd -S <NOME_DO_SERVIDOr> -U <USUARIO> -P <SENHA> -i .\script.sqlserver
+.\create-sql-server.ps1
 
 
 
@@ -22,7 +22,11 @@ Após a execução do SQL Server, altere o terminal para Bash.
 
 Execute o arquivo "deploy-movtodimdim.sh" responsável pelas configurações adicionais:
 
-bash deploy-movtodimdim.sh
+az extension add --name application-insights
+
+chmod +x deploy-movtodimdim.sh
+
+./deploy-movtodimdim.sh
 
 
 Certifique-se de que o arquivo .sh tem permissão de execução. Caso não tenha, rode:
