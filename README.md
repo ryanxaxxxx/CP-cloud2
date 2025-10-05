@@ -4,7 +4,7 @@ Este guia descreve o how to  necessário para realizar a implantação do projet
 
 🧩 1. Executar o Script SQL Server no PowerShell
 
-Abra o PowerShell na pasta onde está o arquivo .sqlserver.
+Abra o PowerShell na pasta onde está o arquivo create-sql-server.
 
 Execute o comando abaixo para rodar o script no SQL Server:
 
@@ -39,9 +39,9 @@ Clique em Settings → Secrets and variables → Actions → New repository secr
 Crie as seguintes variáveis de ambiente (secrets):
 
 Nome do Secret	Descrição
-SPRING_DATASOURCE_URL	URL de conexão com o banco de dados
-SPRING_DATASOURCE_USERNAME	Usuário do banco de dados
-SPRING_DATASOURCE_PASSWORD	Senha do banco de dados
+SPRING_DATASOURCE_URL = jdbc:sqlserver://sqlserver-rm555924.database.windows.net:1433;database=dimdimdb;user=admsql@sqlserver-rm555924;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+SPRING_DATASOURCE_USERNAME	Usuário do banco de dados "admsql"
+SPRING_DATASOURCE_PASSWORD	Senha do banco de dados "Fiap@2tdsvms"
 
 
 ⚙️ 4. Configurar o Arquivo .yml do GitHub Actions
